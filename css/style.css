@@ -21,7 +21,7 @@ a {
 	color:#673ab7;
 }
 #main-wrapper {
-	width:100vw;
+	
 }
 .navbar-container {
 	width:100vw;
@@ -169,7 +169,7 @@ a {
 		display:flex;
 		justify-content: space-between;
 		margin:auto;
-		margin-top: 5%;
+		margin-top: 10vh;
 		margin-bottom: 15%;
 		
 
@@ -254,26 +254,26 @@ a {
  }
  .logo, label {
  	display: none;
- 	font-size: 5px;
- 	max-width: vw
- 	height: 10vh;
- 	line-height: 10vh;
+}
+.logo{
+	max-width: 35vw;
+	float: left;
+	margin-left: 3vw;
+	margin-top: 2vw;
+}
+#toggle{
+	display: none;
+}
+label{
+ float: left;
+ margin-left: 45vw;
+ margin-top: 2vw;
+ font-size: 50px;
+}
+.nav {
+ padding-bottom: 5vw;
+}
 
- }
- .logo{
- 	max-height: 8vw;
- }
- #toggle{
- 	display: none;
- }
- .logo, label{
- 	margin-top: 3vh;
- 	max-height: 10vh;
- 	padding-right: 0vw;
- }
- label{
- 	margin: 
- }
 @media screen and (max-width:1200px){
 .mySlides{
 	padding-bottom: 20vh;
@@ -326,12 +326,17 @@ body {
 }
 .logo, label{
 	display: block;
-	cursor: pointer;
-	border-bottom: solid 2px;
-	border-color: #2196f3;
-	padding-bottom: 5vh;
+
+	
 }
 #toggle:checked + .navbar-container {
 	display: block;
+	position: relative;
+	width: 20vw;
+	margin-left: 20vw;
+	display: inline;
 }
+.home-button-container {
+	display: none;
 }
+.
