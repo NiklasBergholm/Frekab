@@ -252,24 +252,24 @@ a {
  	margin-top: 1%;
  	margin-bottom: 5%;
  }
- .mobilnav {
+ .logo, label {
  	display: none;
- 	font-size: 50px;
- 	max-width: 100vw
+ 	font-size: 5px;
+ 	max-width: vw
  	height: 10vh;
  	line-height: 10vh;
 
  }
  .logo{
- 	max-height: 12vw;
+ 	max-height: 8vw;
  }
  #toggle{
  	display: none;
  }
- .mobilnav{
+ .logo, label{
  	margin-top: 3vh;
  	max-height: 10vh;
- 	padding-right: 37vw;
+ 	padding-right: 0vw;
  }
  label{
  	margin: 
@@ -324,7 +324,7 @@ body {
 	height:10vh;
 	margin: auto;
 }
-.mobilnav{
+.logo, label{
 	display: block;
 	cursor: pointer;
 	border-bottom: solid 2px;
