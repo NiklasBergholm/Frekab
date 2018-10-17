@@ -1,0 +1,34 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	*/*background-image: url(../img/background4.png);*/
+	max-width;
+	overflow-x: hidden; 
+	overflow-y: scroll;
+}
+ .footerc {
+ 	position:;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+ }
+ .footerp {
+ 	position:fixed;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+ }
+ .footerr {
+ 	position:relative;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+
+ }
+ .footerf {
+ 	position:fixed;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	 }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frekab</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="mediatype and|not|only (expressions)" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png" type="image" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="frekab.jsc"></script>
+</head>
+<body>
+	<div id="main-wrapper">
+	<div class="nav">
+	<div class="mobilnav">
+		<img class="logo" src="img/Hemknapp.png">
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+	</div>
+		<div class="navbar-container">
+		<a class="secondary-button" href="prod.html">Produktion</a>
+		<a class="secondary-button" href="ref.html">Referenser</a>
+		<div class="home-button-container"><a class="home-button" href="index.html">Frekab</a></div>
+		<a class="secondary-button" href="find.html">Hitta Hit</a>
+		<a class="secondary-button" href="contact.html">Kontakta oss</a>
+		</div>
+	</div>
+
+</div>
+<div class="Slide">
+    <div class="left" onclick="plusDivs(-1)">&#10094;</div>
+   		<div id=imageSlide>
+ 			<div class="mySlides">
+				<img class="bild" src="img6.JPG">
+				<div><h1 class="rubrik">Lokal</h1>
+				<p class="beskrivning">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+ 		</div>
+ 			<div class="mySlides"><img class="bild" src="img4.JPG">
+ 			<div> <h1 class="rubrik">Kunder</h1>
+				<p class="beskrivning">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+ 			<div class="mySlides"><img class="bild" src="img3.JPG">
+ 				<div> <h1 class="rubrik">Maskiner</h1>
+				<p class="beskrivning">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+ 			<div class="mySlides"><img class="bild" src="img5.JPG">
+ 				<div> <h1 class="rubrik">Kontor</h1>
+				<p class="beskrivning">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+ 		</div>
+    <div class="right" onclick="plusDivs(1)">&#10095;</div>
+	</div>
+   		<span class="badge" onclick="currentDiv(1)"></span>
+    	<span class="badge" onclick="currentDiv(2)"></span>
+    	<span class="badge" onclick="currentDiv(3)"></span>
+ 	   	<span class="badge" onclick="currentDiv(4)"></span>
+ 	</div>
+<div>
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+	function plusDivs(n) {
+  	showDivs(slideIndex += n);
+}
+	function currentDiv(n) {
+	showDivs(slideIndex = n);
+}
+	function showDivs(n) {
+	  var i;
+ 	 var x = document.getElementsByClassName("mySlides");
+ 	 var dots = document.getElementsByClassName("badge");
+ 	 if (n > x.length) {slideIndex = 1}
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+  	   x[i].style.display = "none";
+  }
+  	for (i = 0; i < dots.length; i++) {
+    	 dots[i].className = dots[i].className.replace(" badge", "");
+  }
+  	x[slideIndex-1].style.display = "block";
+  	dots[slideIndex-1].className += "badge";
+}
+</script>
+
+	<div class="ruta4">
+		<div class="r">
+			Info
+		</div>
+
+		<div class="t">
+		 		Vi är en helhetsleverantör av elektromekanik, såsom tillverkning av kablage, 
+    			monteringsarbeten, byggen av apparatskåp där vi kan erbjuda allt från planering, inköp
+    			till färdig produkt.
+		</div>
+
+		<div class="l">
+				Främsta mål: kvalitet och leveranssäkerhet
+		</div>
+	</div>
+
+	<div class="ruta3">
+		<div class="r">
+				Om Oss
+		</div>
+		<div>
+				Frekab bildades 1998 som underleverantör av kablage till telecomindustrin. Sedan starten har vi byggt upp en modern maskinpark för kablagetillverkning med kunnig och ansvarsfull personal för att tillgodose våra kunders önskemål. Vi tillverkar en mängd olika kablage bl.a koaxial-, flerpars-, kraftkablage och kabelstammar till ett flertal olika brancher t.ex. medicinsk-teknisk, fordonsindustri, telecom. Kontaktering med lödning, motståndslödning, krimpning, slitsning. Alla kablage synas och testas för en 100% produkt som levereras i rätt tid. Viktiga delar
+				i vår företagspolicy är kompetens och flexibilitet.
+		</div>
+ 		<div class="h">
+   				Flexibiliteten är särskilt viktig i och med en ständig produkt- och materialutveckling och att korta
+   				ledtider krävs. Produktionen bedrivs i fräscha lokaler på 400kvm och antal anställda är i dagsläget 8st.
+		</div>
+	</div>
+	
+	
+		<div>
+			<footer>
+				FREKAB, Industrivägen 9, 916 31  BJURHOLM -  Telefon/fax: +46(0)932-100 01
+			</footer>
+		</div>
+</body>
+</html>

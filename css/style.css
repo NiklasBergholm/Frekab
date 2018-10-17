@@ -1,0 +1,337 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	*/*background-image: url(../img/background4.png);*/
+	max-width;
+	overflow-x: hidden; 
+	overflow-y: scroll;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+.home-button {
+	font-size:4em;
+	line-height:1.3em;
+	opacity: 0.0;
+    filter: alpha(opacity=50);
+}
+.navbar-container a {
+	color:#673ab7;
+}
+#main-wrapper {
+	width:100vw;
+}
+.navbar-container {
+	width:100vw;
+	height:10vh;
+	background-color: #2196f3;
+	display:flex;
+	justify-content: space-between;
+	text-align:center;
+}
+.secondary-button {
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size:1.5em;
+	line-height: 2em;
+	height:40px;
+}
+.secondary-button:after {
+	content: '';
+	display:block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+    background: transparent;
+	transition: width .3s ease, background-color .3s ease;
+	margin-top:-7px;
+}
+.secondary-button:hover:after {
+	width: 100%;
+	background: #673ab7;
+}
+.home-button-container {
+	width:300px;
+	height:74px;
+	background-image: url(../img/Hemknapp.png);
+	background-position: center;
+	background-size: cover;
+	transition-duration: 0.5s;
+
+}
+.home-button-container:hover {
+	background-image:url(../img/Hemknapp_hover.png);
+}
+
+.ruta {
+	margin: auto;
+	margin-top:;
+	background-color: #2196f3; 	
+	max-width: 20%;
+	margin-bottom: 5%;
+}
+.ruta2 {
+	margin: auto;
+	margin-top: 5%;
+	background-color: #2196f3; 	
+	width: 50%;
+	margin-bottom: 5%;
+}
+.ruta3 {
+	margin: auto;
+	margin-top: 5%;
+	background-color: #2196f3; 	
+	max-width: 35%;
+	margin-bottom: 5%;
+}
+.ruta4 {
+	margin: auto;
+
+	background-color: #2196f3; 	
+	max-width: 20%;
+}
+
+.h{
+	font-size: 22px;
+	margin-top: 1%;
+	text-align: center;
+}
+.rubrik{
+	text-align: center;
+}
+.beskrivning{
+	max-width: 80%;
+	margin: auto;
+}
+
+.r {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.t {
+	margin-top: 1%;
+	text-align: center;
+	font-size: 18px;
+}
+.l {
+	margin-top: 2%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#mapp{
+	align-self: center;
+	width:100%;
+	height:500px;
+	border:0; 
+}
+.k {
+	float: left;
+	margin-top: 10%;
+	background-color: #2196f3; 	
+	max-width: 20%;
+}
+.mon {
+	float: left;
+	margin-top: 10%;
+	background-color: #2196f3; 	
+	max-width: 20%;
+}
+.app {
+	float: left;
+	margin-top: 10%;
+	background-color: #2196f3; 	
+	max-width: 20%;
+}
+.öv {
+	float: left;
+	margin-top: 10%;
+	background-color: #2196f3; 	
+	max-width: 20%;
+}
+.rutor {
+	margin-left: 15%
+}
+a {
+	color: #673ab7;
+}
+	.SlideRub{
+		text-align:center;
+}
+	.Slide{
+		display:-webkit-flex;
+		display:flex;
+		justify-content: space-between;
+		margin:auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		
+
+}
+
+.imageSlides {
+	width: 80%;
+	margin: auto;
+}
+
+	.mySlides{
+		width: 80%;
+		display: block;
+		height: auto;
+		max-height:50vh;
+		min-height:50vh; 
+		max-width: 80vw;
+		min-width: 80vw;
+		margin: auto;
+}
+	.left, .right, .badge{
+		cursor:pointer;
+}
+	.left{
+		/*display:inline-block;*/
+			max-height:25px;
+				max-width:25px;
+			margin: auto;
+		/*position:absolute;*/
+		
+}
+	.right{
+		/*display:inline-block;*/
+			max-height:25px;
+				max-width:25px;
+			margin:auto;
+		/*position:absolute;*/
+}
+	.badge{
+		height:13px;
+			width:16px;
+		
+}
+	.bild{
+	width: 80%;
+	height: auto;
+	max-height:50vh;
+	min-height:50vh; 
+	max-width: 80vw;
+	min-width: 80vw;
+	margin: auto;
+}
+ footer {
+ 	position: relative;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+  	text-align: center;
+ 	font-size: 10px;
+ 	color: black;
+ }
+ .ruta5{
+ 	width: 100%;
+ 	padding-bottom: 5%;
+
+ }
+ .imgref{
+ 	float: left;
+ 	padding-right: 5%;
+ }
+ .rublink {
+ 	margin: auto;
+ }
+ .reftxt {
+ 	width:70%;
+ 	margin: auto;
+ 	margin-left: 20%;
+ 	margin-top: 1%;
+ 	margin-bottom: 5%;
+ }
+ .mobilnav {
+ 	display: none;
+ 	font-size: 50px;
+ 	max-width: 100vw
+ 	height: 10vh;
+ 	line-height: 10vh;
+
+ }
+ .logo{
+ 	max-height: 12vw;
+ }
+ #toggle{
+ 	display: none;
+ }
+ .mobilnav{
+ 	margin-top: 3vh;
+ 	max-height: 10vh;
+ 	padding-right: 37vw;
+ }
+ label{
+ 	margin: 
+ }
+@media screen and (max-width:1200px){
+.mySlides{
+	padding-bottom: 20vh;
+}
+	.ruta4 {
+ max-width: 80vw;
+
+ }
+ .ruta3{
+max-width: 80vw;
+
+ }
+}
+@media screen and (max-width:550px){
+.mySlides{
+	padding-bottom: 30vh;
+}
+}
+@media screen and (max-width:580px){
+.mySlides{
+	padding-bottom: 35vh;
+}
+}
+@media screen and (max-width:420px){
+body {
+	width: 100%;
+}
+.mySlides{
+	padding-bottom: 40vh;
+}
+}
+@media screen and (max-width:1000px){
+
+.navbar-container {
+	display:inline-block;
+	text-align:center;
+	background: transparent;
+	display: none;
+
+}
+.navbar-container a{
+	display: block;
+
+}
+.home-button-container {
+	display:;
+	width:40vw;
+	height:10vh;
+	margin: auto;
+}
+.mobilnav{
+	display: block;
+	cursor: pointer;
+	border-bottom: solid 2px;
+	border-color: #2196f3;
+	padding-bottom: 5vh;
+}
+#toggle:checked + .navbar-container {
+	display: block;
+}
+}
