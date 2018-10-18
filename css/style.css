@@ -405,10 +405,19 @@ body {
 	padding-bottom: 40vh;
 }
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:400px){
 .mySlides{
 	padding-bottom: 45vh;
 }
 }
-
+@media screen and (max-width:380px){
+.mySlides{
+	padding-bottom: 50vh;
+}
+}
+@media screen and (max-width:380px){
+.mySlides{
+	padding-bottom: 55vh;
+}
+}
 
