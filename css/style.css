@@ -415,21 +415,21 @@ body {
 }
 @media screen and (max-width:360px){
 .mySlides{
-	padding-bottom: 55vh;
+	padding-bottom: 52vh;
 }
 }
 @media screen and (max-width:330px){
 .mySlides{
-	padding-bottom: 60vh;
+	padding-bottom: 68vh;
 }
 }
 @media screen and (max-width:310px){
 .mySlides{
-	padding-bottom: 65vh;
+	padding-bottom: 63vh;
 }
 }
 @media screen and (max-width:290px){
 .mySlides{
-	padding-bottom: 75vh;
+	padding-bottom: 73vh;
 }
 }
