@@ -386,6 +386,11 @@ iframe{
 	padding-bottom: 30vh;
 }
 }
+@media screen and (max-width:670px){
+.mySlides{
+	padding-bottom: 35vh;
+}
+}
 @media screen and (max-width:580px){
 .mySlides{
 	padding-bottom: 35vh;
@@ -396,37 +401,35 @@ iframe{
 .nav{
 	padding-bottom: 30vw;
 }
+.mySlides{
+	padding-bottom: 40vh;
+}
 
-@media screen and (max-width:420px){
+@media screen and (max-width:440px){
 body {
 	width: 100%;
 }
 .mySlides{
-	padding-bottom: 40vh;
-}
-}
-@media screen and (max-width:400px){
-.mySlides{
-	padding-bottom: 45vh;
-}
-}
-@media screen and (max-width:380px){
-.mySlides{
 	padding-bottom: 50vh;
 }
 }
-@media screen and (max-width:380px){
+@media screen and (max-width:360px){
 .mySlides{
-	padding-bottom: 70vh;
+	padding-bottom: 55vh;
 }
 }
-@media screen and (max-width:340px){
+@media screen and (max-width:330px){
 .mySlides{
 	padding-bottom: 60vh;
 }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:310px){
 .mySlides{
 	padding-bottom: 65vh;
+}
+}
+@media screen and (max-width:290px){
+.mySlides{
+	padding-bottom: 75vh;
 }
 }
