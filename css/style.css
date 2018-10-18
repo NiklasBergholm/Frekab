@@ -124,12 +124,7 @@ a {
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
-}
-iframe{
-	align-self: center;
-	width:100%;
-	height:500px;
-	border:0; 
+
 }
 .k {
 	float: left;
@@ -276,6 +271,24 @@ label {
  #toggle{
  	display: none;
  }
+.fb{
+ margin: 0 auto;
+ max-width: 100vw;
+ padding: 100px 0 0;
+ overflow: hidden;
+margin-left: 20vw;
+}
+.feed{
+	width: 100%
+	height:0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+iframe{
+	position: absolute;
+	width: 100%;
+	height:100%;
+}
 
 @media screen and (max-width:1200px){
 .mySlides{
@@ -329,7 +342,7 @@ max-width: 80vw;
 	font-size: 5vw;
 	padding-top: 10vw;
 	padding-bottom:1vw;
-	background-color: black;
+	background-color: #2196f3;
 
 }
 .home-button-container{
@@ -345,21 +358,7 @@ label{
 	left: 40vw;
 
 }
-iframe{
-	min-height: 100vh;
-	min-width:100vw;
-	max-width: 100vw;
-	max-height: 100vh;
-	position: all;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
 
-
-}
-.main{
-
-
-}
 .r{
 	display: none;
 }
