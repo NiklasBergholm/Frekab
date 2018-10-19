@@ -274,7 +274,7 @@ label {
 .fb{
  margin: 0 auto;
  max-width: 100vw;
- padding: 0px 0 0;
+ padding-top: 25vw;
  overflow: hidden;
 margin-left: 36.5vw;
 }
@@ -284,11 +284,14 @@ margin-left: 36.5vw;
 	padding-bottom: 0%;
 	position: static;
 }
-iframe{
+.fb iframe{
 	position: static;
 	width: 100vw;
 	height:90vh;
 
+}
+.mobilfb{
+	display: none;
 }
 @media screen and (max-width:1400px){
 .fb{
@@ -421,7 +424,7 @@ label{
 	margin-left: 0vw;
 	margin-right: 0vw;
 }
-iframe{
+.fb iframe{
 	width: 100vw;
 	height: 100vh;
 }
@@ -443,30 +446,36 @@ iframe{
 	margin-left: 0vw;
 	margin-right: 0vw;
 }
-iframe{
+.fb iframe{
 	width: 100vw;
 	height: 100vh;
 }
 }
 @media screen and (max-width:360px){
 .fb{
-	margin-right: 0vw;
-	margin-left: 0vw;
+	display: none;
 }
-iframe{
+.mobilfb iframe{
 	width: 99vw;
 	height: 90vh;
+}
+.mobilfb{
+ display: block;
+}
+.mobilfb iframe{
+
 }
 }
 
 
 @media screen and (max-width:340px){
-.mySlides, .fb{
+.mySlides,{
 	padding-bottom: 150vw;
 }
-.fb{
+.mobilfb{
 	margin-left: 0vw;
 	margin-right: 0vw;
+	padding-bottom: 10vw;
 }
 }
 @media screen and (max-width:460px){

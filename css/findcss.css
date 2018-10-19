@@ -1,12 +1,15 @@
 iframe{
 	align-self: center;
-	width:100%;
+	width:100vw;
 	height:500px;
 	border:0; 
 }
 @media screen and (max-width:1000px){
 
 body{
-	max-width: 0vw;
+	max-width:0vw;
+}
+.ruta2{
+	padding-bottom: 0vw;
 }
 }
