@@ -448,6 +448,17 @@ iframe{
 	height: 100vh;
 }
 }
+@media screen and (max-width:360px){
+.fb{
+	margin-right: 0vw;
+	margin-left: 0vw;
+}
+iframe{
+	width: 99vw;
+	height: 90vh;
+}
+}
+
 
 @media screen and (max-width:340px){
 .mySlides, .fb{
