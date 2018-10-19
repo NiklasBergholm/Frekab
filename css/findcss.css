@@ -4,6 +4,9 @@ iframe{
 	height:500px;
 	border:0; 
 }
+.ruta2{
+	overflow: hidden;
+}
 @media screen and (max-width:1000px){
 
 body{
@@ -11,5 +14,6 @@ body{
 }
 .ruta2{
 	padding-bottom: 0vw;
+
 }
 }
