@@ -217,6 +217,16 @@ a {
 	min-width: 80vw;
 	margin: auto;
 }
+	.mobilbild{
+	width: 80%;
+	height: auto;
+	max-height:50vh;
+	min-height:50vh; 
+	max-width: 80vw;
+	min-width: 80vw;
+	margin: auto;
+	display: none;
+}
  footer {
  	position: relative;
  	right: 0;
@@ -467,6 +477,12 @@ label{
 .fb{
 	margin-left: 4.5vw;
 	padding-top: 22vw;
+}
+.bild{
+	display: none;
+}
+.mobilbild{
+	display: block;
 }
 }
 @media screen and (max-width:500px){
