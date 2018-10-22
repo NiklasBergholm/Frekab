@@ -10,10 +10,11 @@ iframe{
 @media screen and (max-width:1000px){
 
 body{
-	max-width:0vw;
+	max-width:100vw;
 }
 .ruta2{
-	padding-bottom: 0vw;
+	min-width: 100vw;
+	min-height: vh;
 
 }
 }
