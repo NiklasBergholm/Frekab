@@ -34,7 +34,7 @@ body {
   	left: 0;
   	 }
 .footerh{
-  position: fixed;
+  position: relative;
   left: 0;
   right:0;
   bottom: 0;
