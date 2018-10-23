@@ -356,6 +356,12 @@ max-width: 80vw;
  .feed{
  	margin-left: 0;
  }
+ .right{
+	margin-top: 25vh;
+}
+.left{
+ margin-top: 25vh;
+}
 }
 @media screen and (max-width:1000px){
 
@@ -462,6 +468,12 @@ label{
 	min-width: 100vw;
 	max-width: 100vw;
 }
+.right{
+	margin-top: 25vh;
+}
+.left{
+ margin-top: 25vh;
+}
 }
 @media screen and (max-width:600px){
 .mySlides,{
@@ -483,6 +495,12 @@ label{
 }
 .mobilbild{
 	display: block;
+}
+.right{
+	margin-top: 25vh;
+}
+.left{
+ margin-top: 25vh;
 }
 }
 @media screen and (max-width:500px){
