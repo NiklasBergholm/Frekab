@@ -1,0 +1,21 @@
+@media screen and (max-width:550px){
+.mySlides{
+	
+	padding-bottom: 35vh;
+}
+.footerc{
+	position: relative;
+}
+}
+@media screen and (max-width:460px){
+.mySlides{
+	
+	padding-bottom: 50vh;
+}
+}
+@media screen and (max-width:360px){
+.mySlides{
+	
+	padding-bottom: 55vh;
+}
+}
