@@ -56,12 +56,16 @@ body {
  
   margin-top: vh;
 }
+
 }
  @media screen and (max-width:680px){
 }
 .footerc{
 
   margin-top: 55vh;
+}
+.footerf{
+  padding-top: 100vh;
 }
 }
  @media screen and (max-width:430px){
@@ -70,11 +74,13 @@ body {
 
   margin-top: 85vh;
 }
+
 }
- @media screen and (max-width:430px){
+ @media screen and (max-width:360px){
 }
 .footerc{
 
   margin-top: 95vh;
 }
+
 }
