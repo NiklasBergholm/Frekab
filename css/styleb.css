@@ -93,5 +93,11 @@ iframe{
 
   padding-top: 15vh;
 }
+}
+ @media screen and (max-width:359px){
+}
+.footerc{
 
+  padding-top: 25vh;
+}
 }
