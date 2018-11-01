@@ -610,11 +610,7 @@ max-width: 100vw;
 
 }
 }
-@media screen and (max-width:359px){
-.Slide{
-	padding-bottom: 25vh;
-}
-}
+
 
 @media screen and (max-width:340px){
 .mySlides,{

@@ -71,3 +71,10 @@ body {
   margin-top: 85vh;
 }
 }
+ @media screen and (max-width:430px){
+}
+.footerc{
+
+  margin-top: 95vh;
+}
+}
