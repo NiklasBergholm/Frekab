@@ -47,5 +47,27 @@ body {
 }
 .footerc{
   position: relative;
+  padding-top: 5vh;
+}
+}
+ @media screen and (max-width:780px){
+}
+.footerc{
+  position: relative;
+  padding-top: 35vh;
+}
+}
+ @media screen and (max-width:680px){
+}
+.footerc{
+  position: relative;
+  padding-top: 55vh;
+}
+}
+ @media screen and (max-width:430px){
+}
+.footerc{
+  position: relative;
+  padding-top: 75vh;
 }
 }
