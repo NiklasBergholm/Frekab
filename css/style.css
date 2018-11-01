@@ -166,6 +166,7 @@ a {
 		display:flex;
 		justify-content: space-between;
 		margin:auto;
+		height: 100%;
 		padding-top: 5%;
 		padding-bottom: 45vh;
 		
@@ -347,6 +348,9 @@ label {
 .mapp{
 	position: static;
 	padding-bottom: 10vh;
+}
+.textSlide{
+	height: 100vh;
 }
 @media screen and (max-width:1400px){
 .fb{
