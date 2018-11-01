@@ -15,10 +15,11 @@ body {
  }
 
  .footerp {
- 	position:fixed;
+ 	position:relative;
  	right: 0;
   	bottom: 0;
   	left: 0;
+
  }
  .footerr {
  	position:relative;
@@ -32,6 +33,9 @@ body {
  	right: 0;
   	bottom: 0;
   	left: 0;
+    margin-top: 5.5vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   	 }
 .footerh{
   position: relative;
@@ -40,7 +44,7 @@ body {
   bottom: 0;
 }
 .mapp{
-  padding-bottom: 10vh;
+  
 }
  @media screen and (max-width:1000px){
 }
