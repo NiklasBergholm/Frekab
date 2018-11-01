@@ -344,6 +344,9 @@ label {
  	margin: auto;
  	margin-left: 15%;
 }
+.mapp{
+	position: relative;
+}
 @media screen and (max-width:1400px){
 .fb{
 	margin-left: 32vw;
