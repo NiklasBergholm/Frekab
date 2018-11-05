@@ -581,6 +581,12 @@ max-width: 100vw;
 }
 .Slide{
 	padding-bottom: 2vh;
+
+}
+}
+@media screen and (max-width:375px){
+.mobilfb{
+	margin-left: 2.5vw;
 }
 }
 @media screen and (max-width:370px){
