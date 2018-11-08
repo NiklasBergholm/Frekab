@@ -11,6 +11,9 @@ a {
 	text-decoration: none;
 	color:black;
 }
+.kontakt{
+	display: none;
+}
 .home-button {
 	font-size:4em;
 	line-height:1.3em;
@@ -296,7 +299,7 @@ label {
 	width: 50vw;
 	height:99%;
 	padding-bottom: 0%;
-	position: static;
+	position: s;
 	margin-left: 10vw;
 }
 .fb iframe{
@@ -305,8 +308,9 @@ label {
 	height:90vh;
 
 }
-.mobilfb{
+.mobilfb, .huvafb{
 	display: none;
+
 }
 .img-container{
 	margin-top: 5vh;
@@ -354,11 +358,28 @@ label {
 }
 @media screen and (max-width:1400px){
 .fb{
-	margin-left: 32vw;
+	margin-left: 0vw;
 }
 .Slide{
 	padding-bottom: 65vh;
 }
+.navbar-container {
+	width:100vw;
+	height:15vh;
+}
+}
+@media screen and (max-width:1300px){
+.mySlides, .fb{
+	padding-bottom: 40vh;
+}
+	@media screen and (max-width:1280px){
+		.Slide{
+			padding-bottom: 20vh;
+		}
+		.ruta{
+			margin-top: 10vh;
+		}
+	}
 }
 @media screen and (max-width:1200px){
 .mySlides, .fb{
@@ -377,6 +398,7 @@ max-width: 80vw;
  }
  .fb{
  	max-width: 100vw;
+ 	margin-left: 32vw;
  }
  .feed{
  	margin-left: 0;
@@ -390,7 +412,38 @@ max-width: 80vw;
 .reftxt{
 	width: 60vw;
 }
+	@media screen and (max-width:1150px){
+		.ruta{
+			padding-top: 0vh;
+		}
+		.Slide{
+			padding-bottom: 20vh;
+		}
+		.mySlides{
+			padding-bottom: 0vh;
+		}
+	}
 }
+@media screen and (max-width:1024px){
+	.navbar-container{
+		max-height: 10vh;
+	}
+	.Slide{
+		padding-bottom: 20vh;
+	}
+	.fbimg{
+		margin-left:0vw;
+	}
+	.fb{
+		margin-left: 25vw;
+		padding-bottom: 0vh;
+	}
+	.ruta{
+		margin-top: 60vh;
+		
+	}
+}
+
 @media screen and (max-width:1000px){
 
 .navbar-container {
@@ -446,6 +499,9 @@ label{
 	left: 40vw;
 
 }
+	.kontakt{
+		display: ;
+	}
 
 .r{
 	display: none;
@@ -457,7 +513,7 @@ label{
 	padding-bottom: 25vw;
 }
 }
-#toggle:checked + .navbar-container {
+#toggle:checked + .navbar-container, .kontakt {
 	display: inline-block;
 }
 .logo{
@@ -467,18 +523,38 @@ label{
 .fb{
 	float: none;
 }
-.r1{
 
-}
-}
 @media screen and (max-width:800px){
 .fb{
-	margin-left: 0vw;
+	margin-left: 20vw;
 	margin-right: 0vw;
+	min-width: 80vw;
+	max-width: 80vw;
+	padding-bottom: 0vh;
+	margin-top: 15vh;
+
+	}
+	.fb iframe{
+	position: static;
+	width: 80vw;
+	height:90vh;
+	
 }
-.fbimg{
-	min-width: 100vw;
+.bild{
+	display: none;
 }
+.mobilbild{
+	display: block;
+}
+	.Slide{
+		padding-bottom: 0vh;
+	}
+	.ruta4{
+		margin-top: 15vh;
+	}
+	.mapp{
+		padding-bottom: 0vh;
+	}
 }
 @media screen and (max-width:740px){
 .mySlides{
@@ -523,12 +599,6 @@ label{
 	margin-left: 4.5vw;
 	padding-top: 22vw;
 }
-.bild{
-	display: none;
-}
-.mobilbild{
-	display: block;
-}
 .right{
 	margin-top: 25vh;
 }
@@ -537,6 +607,7 @@ label{
 }
 .ruta4 {
  max-width: 100vw;
+	margin-top: 5vh;
 
  }
 .ruta3{
@@ -568,6 +639,24 @@ max-width: 100vw;
 .mobilfb iframe{
 	width: 100vw;
 	height: 100vh;
+}
+}
+@media screen and (max-width:460px){
+
+.nav{
+	padding-bottom: 30vw;
+}
+.fb{
+	margin-left: 0vw;
+	margin-right: 0vw;
+	padding-top: 40vw;
+}
+}
+
+@media screen and (max-width:440px){
+
+.fb{
+	padding-top: 45vw;
 }
 }
 @media screen and (max-width:420px){
@@ -624,35 +713,43 @@ max-width: 100vw;
 
 }
 }
-
+@media screen and (max-width:355px){
+	.mobilfb{
+		display;
+	}
+	.huvafb{
+	display:none;
+	padding-top: 55vw;
+	margin-left: 0vw;
+	margin-right: 0vw;
+}
+}
 
 @media screen and (max-width:340px){
 .mySlides,{
 	padding-bottom: 150vw;
 }
-.mobilfb{
-	margin-left: 0vw;
-	margin-right: 0vw;
-	padding-top: 65vw;
-}
-}
-@media screen and (max-width:460px){
+	.huvafb{
+		padding-top: 65vw;
+		display: block;
+		margin-left: 3vw;
 
-.nav{
-	padding-bottom: 30vw;
+	}
+	.mobilfb{
+		display: none;
+	}
 }
-.fb{
-	margin-left: 0vw;
-	margin-right: 0vw;
-	padding-top: 40vw;
+@media screen and (max-width:320px){
+.mySlides,{
+	padding-bottom: 180vw;
 }
+	.huvafb{
+		padding-top: 65vw;
+		margin-left: 0vw;
+
+	}
+	h1{
+		font-size: 120%;
+	}
 }
 
-@media screen and (max-width:440px){
-body {
-	width: 100%;
-}
-.fb{
-	padding-top: 45vw;
-}
-}

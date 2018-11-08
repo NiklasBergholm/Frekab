@@ -8,7 +8,7 @@ body {
 	overflow-y: scroll;
 }
  .footerc {
-
+	margin-top: 32vh;
  	right: 0;
   	bottom: 0;
   	left: 0;
@@ -43,12 +43,15 @@ body {
   right:0;
   bottom: 0;
 }
-.mapp{
-  
+ @media screen and (max-width:1024px){
+
+.footerc{
+
+  margin-top: 30vh;
+}
 }
  @media screen and (max-width:1000px){
-}
-}
+
 .footerp{
   position:relative;
 }
@@ -63,46 +66,71 @@ body {
     left: 0;
 }
 }
- @media screen and (max-width:780px){
+ @media screen and (max-width:800px){
+.footerf{
+ margin-top: 26.7vh;
 }
+	 .footerc{
+		 margin-top: 93vh;
+	 }
+	 .footerr{
+		 margin-top: 0vh;
+	 }
+}
+ @media screen and (max-width:768px){
 .footerc{
- 
-  margin-top: vh;
-}
-iframe{
-
+ margin-top: 75vh;
 }
 }
  @media screen and (max-width:680px){
-}
+
 .footerc{
 
   margin-top: 55vh;
 }
-
 }
  @media screen and (max-width:430px){
-}
+
 .footerc{
 
   margin-top: 85vh;
 }
-.mapp{
-  margin-bottom: vh;
+}
+ @media screen and (max-width:375px){
+
+.footerf{
+
+  margin-top: 8.8vh;
 }
 }
  @media screen and (max-width:360px){
-}
+
 .footerc{
 
-  padding-top: 25vh;
+  margin-top: 90vh;
 }
 }
- @media screen and (max-width:359px){
-}
+ @media screen and (max-width:340px){
+
 .footerc{
 
-  padding-top: 25vh;
+  margin-top: 115vh;
 }
+}
+ @media screen and (max-width:320px){
 
+.footerc{
+
+  margin-top: 147vh;
+}
+}
+@media screen and (max-height: 667px){
+	.footerc{
+		margin-top: 100vh;
+	}
+}
+@media screen and (max-height:580px){
+	.footerc{
+		margin-top: 147vh;
+	}
 }
