@@ -1,0 +1,13 @@
+Frekab hemsida bildstorlekar
+Helskärm-dator: Hela Bredd:1540px Höjd:490px | Mittenbild: Bredd:675px Höjd:490px | Sidobilder: Bredd: 432,5px Höjd:490px
+Mobil: Bredd:515px Höjd:490px
+
+Mobil-Storlekar
+IphoneX: 375x450px
+Samsung: 360x740px
+Huvafon: 320x548px
+
+Samsungpad: Liggande 1111x800px | Stående: 631x1280px
+Ipad: 768x1024px
+
+ 
