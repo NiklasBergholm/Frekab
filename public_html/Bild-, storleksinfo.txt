@@ -10,4 +10,8 @@ Huvafon: 320x548px
 Samsungpad: Liggande 1111x800px | Stående: 631x1280px
 Ipad: 768x1024px
 
- 
+ /About
+ /Find
+ /Index
+ /Production
+ /Business-Areas
